@@ -6,6 +6,6 @@ var animalUpperCased = animal.toUpperCase();
 
 var text = text.replace('Papugi', animalUpperCased);
 
-var vut = text.substr(length/2)'
+var vut = text.substr(0, text.length/2);
 
-console.log(text)
+console.log(vut);
